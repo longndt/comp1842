@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+   <script>
+      //display text to console (use F12 in Chrome to see result)
+      console.log("Today is Tuesday")
+
+      //set text for HTML element and display using JS
+      function showText() {
+         document.getElementById("text").innerHTML = "Hanoi is the capital of Vietnam"
+      }
+      function hideText() {
+         document.getElementById("text").innerHTML = ""
+      }
+      function changeColor() {
+         document.getElementById("text").style.color = "red"
+      }
+      function changeBackgroundColor() {
+         document.getElementById("text").style.backgroundColor = "yellow"
+      }
+   </script>
+
+   <button onclick="return showText()">Show text</button>
+   <button onclick="return hideText()">Hide text</button>
+   <button onclick="return changeColor()">Change Color</button>
+   <button onclick="return changeBackgroundColor()">Change Background Color</button>
+   <h1 id="text"></h1>
+</body>
+
+</html>

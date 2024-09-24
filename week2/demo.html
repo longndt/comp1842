@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   <script>
+      function welcome() {
+         //1. get input
+         var text = document.getElementById("input").value
+         //2. return output
+         document.getElementById("output").innerHTML = "Hello " + text + " .Welcome to Greenwich Vietnam !"
+      }
+   </script>
+
+   <input type="text" placeholder="Enter your name" id="input">
+   <br><br>
+   <button onclick="return welcome()">OK</button>
+   <h3 id="output"></h3>
+</body>
+</html>
