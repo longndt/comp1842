@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Vue2 Demo</title>
+   <script src="vue.js"></script>
+   <style>
+      div {
+         color: rgb(10, 85, 236);
+         background-color: yellow;
+         font-style: italic;
+         border: 3px dashed red;
+      }
+   </style>
+</head>
+<body>
+   <div id="vue">
+      {{ welcome }}
+   </div>
+
+   <div id="products">
+      <ul v-for="product in products">
+         <li> {{ product }}</li>
+      </ul>
+   </div>
+   <script>
+      var demo = new Vue({
+         el: "#vue",
+         data: {
+            welcome: "Welcome to Hanoi, the capital of Vietnam !"
+         }
+      })
+      var test = new Vue({
+         el: "#products",
+         data: {
+            products: [
+               'laptop', 'mobile', 'tablet'
+            ]
+         }
+      })
+   </script>
+</body>
+</html>

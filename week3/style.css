@@ -1,0 +1,18 @@
+.demo {
+   font-family: sans-serif;
+   border: 1px solid #999;
+   border-radius: 2px;
+   padding: 20px 30px;
+   /* 20px: top & bottom; 30px: left & right */
+   margin-top: 1em;
+   /* 1em: 16px */
+   margin-bottom: 40px;
+   background-color: aquamarine;
+   color: red;
+   font-weight: bold;
+
+   /*
+   border: outside
+   padding: inside
+   */
+}

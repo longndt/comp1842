@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Vue2 Demo</title>
+   <!--
+      1st way: Attach Vue2 CDN link to <head> section of HTML file
+      Link: https://v2.vuejs.org
+      Why use this ? Fast & convenient
+   -->
+   <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+   <!--
+      2nd way: Download Vue2 library then copy to code folder
+      and attach it normally
+        <script src="vue.js"></script>
+      Why use this ? No need to use Internet
+      NOTE: Only use 1 of them not both of them
+   -->
+
+   <!-- Attach external CSS for page styling -->
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div id="app" class="demo">
+      {{ message }}
+      <br>
+      {{ overview }}
+   </div>
+
+   <div id="greenwich" class="demo">
+      {{ introduction }}
+   </div>
+
+   <!-- Attach external VueJS code -->
+   <script src="main.js"></script>
+</body>
+</html>
