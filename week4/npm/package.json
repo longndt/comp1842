@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "sass:build": "sass demo.scss demo.css",
+    "sass:watch": "sass demo.scss demo.css --watch"
+  },
+  "dependencies": {
+    "authentication-utils": "^0.1.4",
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "mailparser": "^3.7.1",
+    "mongoose": "^8.7.0",
+    "multer": "^1.4.5-lts.1",
+    "notification-boxs": "^1.2.1",
+    "sass": "^1.79.4"
+  }
+}
