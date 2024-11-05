@@ -32,6 +32,11 @@ const cors = require('cors')
 //enable cors : VERY IMPORTANT
 app.use(cors())
 
+//declare router (route)
+const vocabRouter = require ('./routes/vocabRouter')
+//register router: VERY IMPORTANT
+vocabRouter(app)
+
 //run server: listen to port
 app.listen(port, () => {
    console.log('Backend server is running at http://localhost:' + port)
