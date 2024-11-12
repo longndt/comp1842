@@ -5,6 +5,7 @@ import New from './views/New.vue'
 import Show from './views/Show.vue'
 import Edit from './views/Edit.vue'
 import About from './views/About.vue'
+import Home from './views/Home.vue'
 
 Vue.use(Router)
 
@@ -13,7 +14,9 @@ const router = new Router({
    routes: [
       {
          path: '/',
-         redirect: '/words'
+         //redirect: '/words'
+         name: 'Home',
+         component: Home
       },
       {
          path: '/words',

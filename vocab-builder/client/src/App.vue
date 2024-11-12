@@ -12,6 +12,9 @@
          <router-link to="/about" class="item">
             <i class="question circle outline icon"></i>About
           </router-link>
+          <a href="https://greenwich.edu.vn/en/english/" class="item">
+             Greenwich Vietnam
+          </a>
         </div>
       </div>
     </div>
