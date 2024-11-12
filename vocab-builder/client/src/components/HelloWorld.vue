@@ -1,4 +1,7 @@
 <template>
-  <h1>Hello world</h1>
+  <div>
+    <h1>Greenwich Vietnam</h1>
+    <h2>2 Pham Van Bach - Ha Noi</h2>
+  </div>
 </template>
 

@@ -37,6 +37,10 @@ const vocabRouter = require ('./routes/vocabRouter')
 //register router: VERY IMPORTANT
 vocabRouter(app)
 
+app.get('/', (req, res) => {
+   res.send("<h1>This is homepage of backend side</h1>")
+})
+
 //run server: listen to port
 app.listen(port, () => {
    console.log('Backend server is running at http://localhost:' + port)
