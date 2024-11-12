@@ -4,7 +4,7 @@ import axios from 'axios'
 //define backend endpoint (url)
 const backEnd = 'http://localhost:3000/vocabs/'
 
-//consume API by methods GET/POST/PUT/DELETE
+//consume (call) API with 4 methods GET/POST/PUT/DELETE
 export const ViewAllVocabs = async () => {
    try {
       let response = await axios.get(backEnd)
@@ -35,6 +35,24 @@ export const DeleteAllVocabs = async () => {
 export const ViewVocab = async (id) => {
    try {
       let response = await axios.get(backEnd + id)
+      return response.data
+   } catch (err) {
+      console.error(err)
+   }
+}
+
+export const AddVocab = async (word) => {
+   try {
+      let response = await axios.post(backEnd, word)
+      return response.data
+   } catch (err) {
+      console.error(err)
+   }
+}
+
+export const EditVocab = async (id, word) => {
+   try {
+      let response = await axios.put(backEnd + id, word)
       return response.data
    } catch (err) {
       console.error(err)

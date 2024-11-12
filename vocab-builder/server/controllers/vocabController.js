@@ -8,7 +8,7 @@ const viewAllVocabs = async (req, res) => {
    try {
       //retrieve data from DB
       //sort by "_id" descending : new data on the top
-      let vocabs = await vocabModel.find({}).sort({ _id: - 1 })
+      let vocabs = await vocabModel.find({}).sort({ _id: -1 })
       //return data as API (JSON format)
       res.json(vocabs)
    } catch (err) {

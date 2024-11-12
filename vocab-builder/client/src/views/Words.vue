@@ -28,7 +28,12 @@
             </router-link>
           </td>
           <td>
+              <router-link
+              class="ui button yellow"
+              :to="{ name: 'Edit', params: { id: word._id } }"
+            >
               Edit
+            </router-link>
           </td>
           <td>
                <a class="ui button red" @click.prevent="onDelete(word._id)">
