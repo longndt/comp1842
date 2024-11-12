@@ -1,11 +1,11 @@
 <template>
    <div>
-      <h1>Edit Word</h1>
+      <h1>This is demo web app for COMP1842</h1>
    </div>
 </template>
 
 <script>
 export default {
-  name: "Edit",
+  name: "About",
 };
 </script>

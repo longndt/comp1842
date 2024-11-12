@@ -9,6 +9,9 @@
           <router-link to="/words/new" class="item">
             <i class="plus icon"></i>New
           </router-link>
+         <router-link to="/about" class="item">
+            <i class="question circle outline icon"></i>About
+          </router-link>
         </div>
       </div>
     </div>
