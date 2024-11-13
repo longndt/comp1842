@@ -16,14 +16,18 @@
         
 4.  Add code (**vocab-builder**) to workspace in VS Code
     
-5.  💡**localhost:3000**
+5.  Install libraries for backend side (**server**) and startup
     
     *   **npm install**
         
     *   **npm start**
+   
+   💡  **localhost:3000**
         
-6.  💡**localhost:8080**
+6.  Install libraries for frontend side (**client**) and startup
     
     *   **npm install**
         
     *   **npm run serve**
+
+   💡  **localhost:8080**
