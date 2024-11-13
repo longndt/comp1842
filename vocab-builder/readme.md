@@ -22,7 +22,7 @@
         
     *   **npm start**
    
-   💡  **localhost:3000**
+    *  **localhost:3000**
         
 6.  Install libraries for frontend side (**client**) and startup
     
@@ -30,4 +30,4 @@
         
     *   **npm run serve**
 
-   💡  **localhost:8080**
+    *   **localhost:8080**
